@@ -1,0 +1,33 @@
+<!--<p id="notice"></p>-->
+
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-10-5 col-md-offset-1">
+      <h1>Device Scans</h1>
+
+      <table class="table table-condensed table-striped table-hover">
+        <thead>
+        <tr>
+          <th>Device type</th>
+          <th>Created at:</th>
+          <th>Updated at:</th>
+          <th colspan="3"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <% @device_scans.each do |ds| %>
+          <tr>
+            <td><%= ds.device_type %></td>
+            <td><%= ds.created_at %></td>
+            <td><%= ds.updated_at %></td>
+          </tr>
+        <% end %>
+        </tbody>
+      </table>
+
+      <br>
+
+    </div>
+  </div>
+</div>
