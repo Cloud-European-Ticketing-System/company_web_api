@@ -1,4 +1,3 @@
-class Company < ActiveResource::Base
+class Company < ApplicationResource
   has_many :users
-  self.site = 'http://localhost:1990'
 end
