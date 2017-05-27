@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'activeresource'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
-gem 'angularjs-rails'
+gem 'bootswatch-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
