@@ -12,6 +12,7 @@
   <%= render 'layouts/header' %>
 
   <div class="container-full">
+    <%= render 'layouts/notice' if notice %>
     <%= yield %>
     <%= render 'layouts/footer' %>
   </div>
