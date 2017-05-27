@@ -7,7 +7,7 @@ body {
   line-height: 18px;
 }
 
-p, ol, ul, td {
+ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -47,18 +47,17 @@ div {
 }
 
 #notice {
-  color: green;
+  color: white;
 }
 
 .field_with_errors {
-  padding: 2px;
-  background-color: red;
+  padding: 1px;
   display: table;
+  border-left: 1px solid red
 }
 
 #error_explanation {
   width: 450px;
-  border: 2px solid red;
   padding: 7px 7px 0;
   margin-bottom: 20px;
   background-color: #f0f0f0;
@@ -76,6 +75,7 @@ div {
   ul li {
     font-size: 12px;
     list-style: square;
+    color: red
   }
 }
 
